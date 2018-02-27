@@ -1,0 +1,9 @@
+# Spring Kafka Demo for [CloudKarafka](https://www.cloudkarafka.com/)
+
+configure
+
+```
+CLOUDKARAFKA_USERNAME=...
+CLOUDKARAFKA_PASSWORD=...
+SPRING_KAFKA_BOOTSTRAP_SERVERS=...
+```
