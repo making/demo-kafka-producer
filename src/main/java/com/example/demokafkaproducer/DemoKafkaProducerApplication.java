@@ -17,9 +17,7 @@ public class DemoKafkaProducerApplication {
 
 	private final KafkaTemplate<Object, String> kafkaTemplate;
 
-	public DemoKafkaProducerApplication(
-			@Value("${sample.topic}")
-					String topic, KafkaTemplate<Object, String> kafkaTemplate) {
+	public DemoKafkaProducerApplication(@Value("${sample.topic}") String topic, KafkaTemplate<Object, String> kafkaTemplate) {
 		this.topic = topic;
 		this.kafkaTemplate = kafkaTemplate;
 	}
